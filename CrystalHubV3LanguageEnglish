@@ -1,0 +1,334 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local CrystalHubLanguageEnglish = Instance.new("ScreenGui")
+local MainFrame = Instance.new("ImageLabel")
+local Frame = Instance.new("ImageLabel")
+local CloseB = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("ImageLabel")
+local EnglishB = Instance.new("TextButton")
+local Click = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TurkishB = Instance.new("TextButton")
+local Click_2 = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ContinueB = Instance.new("TextButton")
+local Click_3 = Instance.new("ImageLabel")
+local UICorner_4 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+CrystalHubLanguageEnglish.Name = "CrystalHubLanguageEnglish"
+CrystalHubLanguageEnglish.Parent = game.CoreGui
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = CrystalHubLanguageEnglish
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(0.280000001, 0, 0.998000026, 0)
+MainFrame.Size = UDim2.new(0, 628, 0, 288)
+MainFrame.Image = "rbxassetid://3570695787"
+MainFrame.ImageColor3 = Color3.fromRGB(16, 16, 16)
+MainFrame.ScaleType = Enum.ScaleType.Slice
+MainFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+MainFrame.SliceScale = 0.040
+
+Frame.Name = "Frame"
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Size = UDim2.new(0, 628, 0, 32)
+Frame.ZIndex = 2
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(9, 9, 9)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.040
+
+CloseB.Name = "CloseB"
+CloseB.Parent = MainFrame
+CloseB.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+CloseB.Position = UDim2.new(0.957513034, 0, 0.0208332799, 0)
+CloseB.Size = UDim2.new(0, 20, 0, 20)
+CloseB.ZIndex = 2
+CloseB.Font = Enum.Font.SourceSans
+CloseB.Text = ""
+CloseB.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseB.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(1, 4)
+UICorner.Parent = CloseB
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.024305556, 0)
+TextLabel.Size = UDim2.new(0, 79, 0, 18)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "CrystalHub"
+TextLabel.TextColor3 = Color3.fromRGB(193, 193, 193)
+TextLabel.TextSize = 14.000
+
+Frame_2.Parent = MainFrame
+Frame_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.402866244, 0, 0.09375, 0)
+Frame_2.Size = UDim2.new(0, 375, 0, 261)
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.402866244, 0, 0.145833328, 0)
+TextLabel_2.Size = UDim2.new(0, 59, 0, 18)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "CrystalHub"
+TextLabel_2.TextColor3 = Color3.fromRGB(193, 193, 193)
+TextLabel_2.TextSize = 10.000
+
+TextLabel_3.Parent = MainFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.402866244, 0, 0.208333328, 0)
+TextLabel_3.Size = UDim2.new(0, 188, 0, 20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "Language Selection"
+TextLabel_3.TextColor3 = Color3.fromRGB(193, 193, 193)
+TextLabel_3.TextSize = 20.000
+
+Frame_3.Name = "Frame"
+Frame_3.Parent = MainFrame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BackgroundTransparency = 1.000
+Frame_3.Position = UDim2.new(0.412420392, 0, 0.315972209, 0)
+Frame_3.Size = UDim2.new(0, 363, 0, 3)
+Frame_3.ZIndex = 4
+Frame_3.Image = "rbxassetid://3570695787"
+Frame_3.ImageColor3 = Color3.fromRGB(27, 27, 27)
+Frame_3.ScaleType = Enum.ScaleType.Slice
+Frame_3.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame_3.SliceScale = 0.060
+
+EnglishB.Name = "EnglishB"
+EnglishB.Parent = MainFrame
+EnglishB.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+EnglishB.BorderSizePixel = 0
+EnglishB.ClipsDescendants = true
+EnglishB.Position = UDim2.new(0.425159246, 0, 0.447222263, 0)
+EnglishB.Size = UDim2.new(0, 122, 0, 30)
+EnglishB.Font = Enum.Font.GothamBold
+EnglishB.Text = "English"
+EnglishB.TextColor3 = Color3.fromRGB(231, 231, 231)
+EnglishB.TextSize = 11.000
+EnglishB.TextWrapped = true
+
+Click.Name = "Click"
+Click.Parent = EnglishB
+Click.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click.BackgroundTransparency = 1.000
+Click.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click.Image = "http://www.roblox.com/asset/?id=6098962661"
+
+UICorner_2.CornerRadius = UDim.new(0, 2)
+UICorner_2.Parent = EnglishB
+
+TurkishB.Name = "TurkishB"
+TurkishB.Parent = MainFrame
+TurkishB.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+TurkishB.BorderSizePixel = 0
+TurkishB.ClipsDescendants = true
+TurkishB.Position = UDim2.new(0.762738824, 0, 0.447222263, 0)
+TurkishB.Size = UDim2.new(0, 122, 0, 30)
+TurkishB.Font = Enum.Font.GothamBold
+TurkishB.Text = "Türkçe"
+TurkishB.TextColor3 = Color3.fromRGB(231, 231, 231)
+TurkishB.TextSize = 11.000
+TurkishB.TextWrapped = true
+
+Click_2.Name = "Click"
+Click_2.Parent = TurkishB
+Click_2.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click_2.BackgroundTransparency = 1.000
+Click_2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click_2.Image = "http://www.roblox.com/asset/?id=6098962661"
+
+UICorner_3.CornerRadius = UDim.new(0, 2)
+UICorner_3.Parent = TurkishB
+
+ContinueB.Name = "ContinueB"
+ContinueB.Parent = MainFrame
+ContinueB.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+ContinueB.BorderSizePixel = 0
+ContinueB.ClipsDescendants = true
+ContinueB.Position = UDim2.new(0.84394902, 0, 0.884722292, 0)
+ContinueB.Size = UDim2.new(0, 91, 0, 27)
+ContinueB.Font = Enum.Font.GothamBold
+ContinueB.Text = "Continue"
+ContinueB.TextColor3 = Color3.fromRGB(231, 231, 231)
+ContinueB.TextSize = 11.000
+ContinueB.TextWrapped = true
+
+Click_3.Name = "Click"
+Click_3.Parent = ContinueB
+Click_3.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click_3.BackgroundTransparency = 1.000
+Click_3.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click_3.Image = "http://www.roblox.com/asset/?id=6098962661"
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = ContinueB
+
+ImageLabel.Parent = MainFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0270700641, 0, 0.145833328, 0)
+ImageLabel.Size = UDim2.new(0, 201, 0, 201)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6349572499"
+
+-- Scripts:
+
+local function RDRR_fake_script() -- CloseB.LocalScript 
+	local script = Instance.new('LocalScript', CloseB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(15, 15, 15)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(39, 39, 39)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(RDRR_fake_script)()
+local function NZBA_fake_script() -- MainFrame.LocalScript 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	wait(0.5)
+	
+	script.Parent:TweenPosition(UDim2.new(0.281, 0,0.268, 0), "Out", "Linear", 1)
+end
+coroutine.wrap(NZBA_fake_script)()
+local function XPDPL_fake_script() -- EnglishB.LocalScript 
+	local script = Instance.new('LocalScript', EnglishB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(XPDPL_fake_script)()
+local function WSML_fake_script() -- EnglishB.LocalScript 
+	local script = Instance.new('LocalScript', EnglishB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(15, 15, 15)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(29, 29, 29)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		-- script for later
+	end)
+end
+coroutine.wrap(WSML_fake_script)()
+local function ZMUZGF_fake_script() -- TurkishB.LocalScript 
+	local script = Instance.new('LocalScript', TurkishB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(ZMUZGF_fake_script)()
+local function LFQZ_fake_script() -- TurkishB.LocalScript 
+	local script = Instance.new('LocalScript', TurkishB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(15, 15, 15)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(29, 29, 29)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		-- script for later
+	end)
+end
+coroutine.wrap(LFQZ_fake_script)()
+local function DFBGP_fake_script() -- ContinueB.LocalScript 
+	local script = Instance.new('LocalScript', ContinueB)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+end
+coroutine.wrap(DFBGP_fake_script)()
+local function CKGO_fake_script() -- ContinueB.LocalScript 
+	local script = Instance.new('LocalScript', ContinueB)
+
+	script.Parent.MouseEnter:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(15, 15, 15)}):Play()
+	end)
+	script.Parent.MouseLeave:Connect(function()
+		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(29, 29, 29)}):Play()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
+		-- script for later
+	end)
+end
+coroutine.wrap(CKGO_fake_script)()
