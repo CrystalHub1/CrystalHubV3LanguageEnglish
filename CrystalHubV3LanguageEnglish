@@ -256,7 +256,8 @@ local function WSML_fake_script() -- EnglishB.LocalScript
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(29, 29, 29)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		-- script for later
+		     MainFrame:Destroy()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CrystalHub1/CrystalHubV3LanguageEnglish/main/CrystalHubV3LanguageEnglish", true))()
 	end)
 end
 coroutine.wrap(WSML_fake_script)()
@@ -292,7 +293,8 @@ local function LFQZ_fake_script() -- TurkishB.LocalScript
 		game:GetService("TweenService"):Create(script.Parent, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB(29, 29, 29)}):Play()
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
-		-- script for later
+		     MainFrame:Destroy()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CrystalHub1/CrystalHubLanguageT-rk-e/main/CrystalHubLanguageTurkce", true))()
 	end)
 end
 coroutine.wrap(LFQZ_fake_script)()
